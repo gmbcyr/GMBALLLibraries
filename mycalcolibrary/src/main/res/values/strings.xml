@@ -1,0 +1,42 @@
+<resources>
+    <string name="com.gmb.simplecalco.app_name">Calco Integree</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="zero">0</string>
+    <string name="plusmoins">+/-</string>
+    <string name="virgule">.</string>
+    <string name="plus">+</string>
+    <string name="egal">=</string>
+    <string name="un">1</string>
+    <string name="deux">2</string>
+    <string name="trois">3</string>
+    <string name="moins">-</string>
+    <string name="congru">Mod.</string>
+    <string name="quatre">4</string>
+    <string name="cinq">5</string>
+    <string name="six">6</string>
+    <string name="fois">*</string>
+    <string name="expo">^</string>
+    <string name="sept">7</string>
+    <string name="huit">8</string>
+    <string name="neuf">9</string>
+    <string name="div">/</string>
+    <string name="back">&lt;-</string>
+    <string name="parentheseO">(</string>
+    <string name="parentheseF">)</string>
+    <string name="racine">/V</string>
+    <string name="clear">C</string>
+    <string name="print">Print</string>
+    <string name="ok">OK</string>
+    <string name="pourcent">%</string>
+    <string name="rm">RM</string>
+    <string name="doublezero">00</string>
+    <string name="result_saved">Result permanently saved !</string>
+    <string name="result_restored">Saved result restored!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_accueil">AccueilActivity</string>
+    <string name="calco_title">Simple Calculator</string>
+</resources>

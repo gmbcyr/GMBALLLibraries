@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GMBadvancedDatePicker</string>
+    <string name="cat_cmdCancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="past_month_print_color" translatable="false">GREY</string>
+    <string name="next_month_print_color" translatable="false">GREY</string>
+    <string name="current_day_month_print_color" translatable="false">RED</string>
+    <string name="current_month_print_color" translatable="false">WHITE</string>
+    <string name="week_title" translatable="false">DARK</string>
+
+    <string-array name="week_label">
+
+        <item name="sun">S</item>
+        <item name="mon">M</item>
+        <item name="tue">T</item>
+        <item name="wed">W</item>
+        <item name="thu">T</item>
+        <item name="fri">F</item>
+        <item name="sat">S</item>
+
+    </string-array>
+</resources>

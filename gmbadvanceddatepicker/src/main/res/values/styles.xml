@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.DatePicPro" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/datepic_primary</item>
+        <item name="colorPrimaryDark">@color/datepic_primary_dark</item>
+        <item name="colorAccent">@color/datepic_accent</item>
+        <item name="colorButtonNormal">@color/datepic_button_background</item>
+        <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="DatePicPro" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/datepic_primary</item>
+        <item name="colorPrimaryDark">@color/datepic_primary_dark</item>
+        <item name="colorAccent">@color/datepic_accent</item>
+        <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+    </style>
+
+    <style name="DatePicPro.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DatePicPro.WithActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+
+    <style name="myActionBar" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Large</item>
+    </style>
+
+
+
+    <style name="Theme.ReminderProTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ReminderProTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="viewInLayoutWithLabel">
+
+        <item name="android:layout_width">@dimen/width_view_in_layout_with_label</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|bottom</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+    </style>
+
+
+    <style name="viewInLayoutWithLabel2">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">left|bottom</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+
+
+    <style name="labelInEditTextView">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">left|bottom</item>
+        <item name="android:layout_gravity">left|bottom</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:textSize">19dp</item>
+        <item name="android:ems">10</item>
+    </style>
+
+
+
+
+    <style name="viewInLayoutWithLabel.Dialog">
+
+        <item name="android:layout_width">@dimen/width_view_in_dialog_layout_with_label</item>
+    </style>
+
+    <style name="viewInLayoutWithLabel.Dialog.CenterInfos">
+
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="viewInLayoutWithLabel.Dialog.Thin">
+
+        <item name="android:layout_width">@dimen/width_view_in_dialog_thin_layout_with_label</item>
+    </style>
+
+    <style name="labelInLayout">
+
+        <item name="android:gravity">right|bottom</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+
+    </style>
+
+
+    <style name="labelInEditText">
+
+        <item name="android:gravity">top|left</item>
+        <item name="android:layout_gravity">top|left</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textStyle">normal|italic</item>
+
+    </style>
+
+    <style name="viewTreePerRow">
+
+        <item name="android:layout_width">@dimen/width_view_3_per_row</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|bottom</item>
+        <item name="android:layout_alignParentRight">false</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+    </style>
+
+    <style name="simple_button">
+        <item name="android:background">@drawable/back_button</item>
+        <item name="android:textColor">@color/datepic_black</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="simple_button.cancelButton">
+        <item name="android:background">@drawable/back_button_cancel</item>
+    </style>
+
+
+    <style name="datePic_sousTitle" parent="@android:style/TextAppearance.DeviceDefault.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Large</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@drawable/shadowed_back</item>
+        <item name="android:layout_marginBottom">@dimen/sous_title_marginbottom</item>
+        <item name="android:textColor">@color/abc_primary_text_disable_only_material_dark</item>
+        <item name="android:textSize">33dp</item>
+
+    </style>
+
+    <style name="datePic_moisEtJour" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Medium</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/sous_title_marginbottom</item>
+        <item name="android:textColor">@color/abc_primary_text_disable_only_material_dark</item>
+        <item name="android:textSize">15dp</item>
+
+    </style>
+
+    <style name="datePic_sousTitle.dialogTitle">
+
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:background">@drawable/back_sub_title</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="dialogMenu">
+        <item name="android:radius">10dp</item>
+    </style>
+
+
+    <style name="datePic_sousTitle.afficheUnAlarm" >
+
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:background">@drawable/back_transparent</item>
+    </style>
+
+
+    <style name="mainSectionTop" parent="@android:style/TextAppearance.DeviceDefault.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@drawable/shadowed_back</item>
+        <item name="android:layout_marginBottom">@dimen/sous_title_marginbottom</item>
+        <item name="android:textColor">@color/abc_primary_text_disable_only_material_dark</item>
+
+    </style>
+
+
+    <style name="MyTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/datepic_blue_grey_600</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GMBALLLibraries.iml" filepath="$PROJECT_DIR$/GMBALLLibraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmbadp/gmbadp.iml" filepath="$PROJECT_DIR$/gmbadp/gmbadp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmbadvanceddatepicker/gmbadvanceddatepicker.iml" filepath="$PROJECT_DIR$/gmbadvanceddatepicker/gmbadvanceddatepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmbcsvexporter/gmbcsvexporter.iml" filepath="$PROJECT_DIR$/gmbcsvexporter/gmbcsvexporter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmbdatepickerpro/gmbdatepickerpro.iml" filepath="$PROJECT_DIR$/gmbdatepickerpro/gmbdatepickerpro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycalcolibrary/mycalcolibrary.iml" filepath="$PROJECT_DIR$/mycalcolibrary/mycalcolibrary.iml" />
+    </modules>
+  </component>
+</project>

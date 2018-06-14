@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <style name="CalcoTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+        <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+        <item name="android:buttonStyle">@style/MyButtonStyle</item>
+
+    </style>
+
+
+    <style name="CalcoTheme.Saisie">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/calc_blue_grey_900</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textSize">25dp</item>
+    </style>
+
+    <style name="CalcoTheme.Saisie.Affiche">
+        <item name="android:textSize">15dp</item>
+    </style>
+
+
+    <style name="CalcoTheme.BackOperator">
+        <item name="android:background">@drawable/back_operator</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+
+    <style name="CalcoTheme.BackOperator.Operant">
+        <item name="android:background">@drawable/back_operant</item>
+    </style>
+
+    <style name="CalcoTheme.BackOperator.Resultat">
+        <item name="android:background">@drawable/back_resultat</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+
+    <style name="MyTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+
+    <style name="MyButtonStyle" parent="android:Widget.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+
+    <style name="calcSousTitle" parent="AlertDialog.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@drawable/calc_back_sub_title_left_right</item>
+        <item name="android:layout_marginBottom">@dimen/sous_title_marginbottom</item>
+        <item name="android:textColor">@color/abc_primary_text_disable_only_material_dark</item>
+
+    </style>
+
+</resources>

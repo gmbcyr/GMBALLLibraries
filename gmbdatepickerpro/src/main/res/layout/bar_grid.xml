@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    tools:context="com.gmb.gmbdatepickerpro.DatePickerPro">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/back_bar_date"
+        android:gravity="left|top"
+        android:height="40dp"
+        android:orientation="horizontal">
+
+        <!--Button
+            android:id="@+id/settings"
+            android:layout_width="54sp"
+            android:layout_height="60sp"
+            android:background="@drawable/customshape" /-->
+
+        <ImageView
+            android:id="@+id/prevMonth"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:src="@drawable/previous_big" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/currentMonth"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/nextMonth"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/next_big" >
+        </ImageView>
+
+        <!--Button
+            android:id="@+id/addEvent"
+            android:layout_width="54sp"
+            android:layout_height="60sp"
+            android:background="@drawable/top_info" /-->
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/cell_value" >
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_content_choix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+        <GridView
+            android:id="@+id/grid_calendar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="7"
+            android:choiceMode="singleChoice"
+            android:horizontalSpacing="2dp"
+            android:verticalSpacing="2dp">
+        </GridView>
+
+
+        <TextView
+            android:id="@+id/txt_next_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="January 2017"
+
+            android:layout_gravity="center_horizontal|top"
+            android:gravity="center_horizontal|top"
+
+            android:visibility="gone"/>
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/bac_middle_to_side"
+        />
+
+</LinearLayout>

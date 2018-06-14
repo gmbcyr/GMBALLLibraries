@@ -1,0 +1,282 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gmb.mycalcolibrary.SimpleCalcoFragment">
+
+    <TextView
+        android:id="@+id/title_calc"
+        android:text="@string/calco_title"
+
+        android:layout_alignParentTop="true"
+        style="@style/calcSousTitle"
+
+
+        />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main_calco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/title_calc"
+        android:stretchColumns="2"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView android:id="@+id/afficheur"
+            style="@style/CalcoTheme.Saisie.Affiche"/>
+
+        <TextView android:id="@+id/saisie"
+            style="@style/CalcoTheme.Saisie"/>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            />
+        <TableRow
+            >
+            <Button
+                android:id="@+id/parentheseO"
+                android:text="@string/parentheseO"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                style="@style/CalcoTheme.BackOperator"/>
+
+            <Button
+                android:id="@+id/parentheseF"
+                android:text="@string/parentheseF"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                style="@style/CalcoTheme.BackOperator"/>
+
+            <Button
+                android:id="@+id/back"
+                android:text="@string/back"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                style="@style/CalcoTheme.BackOperator"/>
+
+            <Button
+                android:id="@+id/clear"
+                android:text="@string/clear"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                style="@style/CalcoTheme.BackOperator"/>
+
+            <Button
+                android:id="@+id/expo"
+                android:text="@string/expo"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator"/>
+
+            <Button
+                android:id="@+id/ok"
+                android:text="@string/ok"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                style="@style/CalcoTheme.BackOperator"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/sept"
+                android:text="@string/sept"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                style="@style/CalcoTheme.BackOperator.Operant"/>
+
+            <Button
+                android:id="@+id/huit"
+                android:text="@string/huit"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator.Operant"/>
+
+            <Button
+                android:id="@+id/neuf"
+                android:text="@string/neuf"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator.Operant"/>
+
+            <Button
+                android:id="@+id/div"
+                android:text="@string/div"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator"/>
+
+            <Button
+                android:id="@+id/fois"
+                android:text="@string/fois"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator"/>
+
+            <Button
+                android:id="@+id/pourcent"
+                android:text="@string/pourcent"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/quatre"
+                android:text="@string/quatre"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator.Operant"/>
+
+            <Button
+                android:id="@+id/cinq"
+                android:text="@string/cinq"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator.Operant"/>
+
+            <Button
+                android:id="@+id/six"
+                android:text="@string/six"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator.Operant"/>
+
+            <Button
+                android:id="@+id/plus"
+                android:text="@string/plus"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator"/>
+
+            <Button
+                android:id="@+id/moins"
+                android:text="@string/moins"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator"/>
+
+            <Button
+                android:id="@+id/rm"
+                android:text="@string/rm"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator"/>
+
+
+
+
+        </TableRow>
+
+
+        <TableRow>
+            <Button
+                android:id="@+id/un"
+                android:text="@string/un"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator.Operant"/>
+
+            <Button
+                android:id="@+id/deux"
+                android:text="@string/deux"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator.Operant"/>
+
+            <Button
+                android:id="@+id/trois"
+                android:text="@string/trois"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator.Operant"/>
+
+            <Button
+                android:id="@+id/zero"
+                android:text="@string/zero"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator.Operant"/>
+
+            <Button
+                android:id="@+id/virgule"
+                android:text="@string/virgule"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator"/>
+
+
+
+            <Button
+                android:id="@+id/egal"
+                android:text="@string/egal"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                style="@style/CalcoTheme.BackOperator.Resultat"/>
+
+
+
+
+        </TableRow>
+
+
+        <TableRow android:visibility="gone">
+            <Button
+                android:id="@+id/doublezero"
+                android:text="@string/doublezero"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CalcoTheme.BackOperator.Operant"/>
+
+
+
+
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+
+
+</RelativeLayout>

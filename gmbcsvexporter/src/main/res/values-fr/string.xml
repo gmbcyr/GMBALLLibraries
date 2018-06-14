@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="file_name">Nom Fichier</string>
+    <string name="title_frag_export_file">Modifier le nom du fichier</string>
+    <string name="field_to_export">Champs disponibles</string>
+    <string name="add_field_to_export">Ajouter au fichier</string>
+    <string name="must_select_least_one">Veuillez choisir au moins un champ.</string>
+
+    <string name="file_dir">Repertoire de sauvegarde</string>
+    <string name="open_after_export">Ouvrir le fichier apres export.</string>
+    <string name="cat_cmdCancel">Annuler</string>
+    <string name="cat_cmdSave">Sauvegarder</string>
+    <string name="must_fill_out_field">Veillez remplir tous les champs</string>
+
+    <string name="export_param">Parametres de l export</string>
+
+    <string name="export_select_field_to_export">Choisir les champs a exporter</string>
+    <string name="must_fill_select_dir">Veillez choisir un dossier pour continuer.</string>
+    <string name="click_to_select_dir">Cliquer ici pour choisir un dossier.</string>
+
+</resources>

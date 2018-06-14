@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lyt_content_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal|top"
+        android:gravity="center_horizontal|top"
+
+        style="@style/datePic_sousTitle.title">
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/txt_day_week"
+                android:text="Friday"
+                android:layout_width="wrap_content"
+                android:layout_height="0px"
+                android:layout_weight="0.4"
+                style="@style/datePic_moisEtJour"
+                />
+
+
+            <TextView
+                android:id="@+id/txt_year"
+                android:text="2016"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="0.6"
+
+                style="@style/datePic_sousTitle.likeButton"
+                android:visibility="gone"/>
+
+            <Spinner
+                android:id="@+id/cmb_month"
+                android:spinnerMode="dialog"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_gravity="center_horizontal|top"
+                android:gravity="center_horizontal|top"
+                android:layout_weight="0.6"
+
+                style="@style/datePic_sousTitle.likeButton"></Spinner>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+
+
+            <TextView
+                android:id="@+id/txt_day_month"
+                android:text="23"
+                android:layout_width="wrap_content"
+                android:layout_height="0px"
+                android:layout_weight="0.4"
+                style="@style/datePic_moisEtJour"
+                />
+
+
+            <Spinner
+                android:id="@+id/cmb_date"
+                android:spinnerMode="dialog"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_gravity="center_horizontal|top"
+                android:gravity="center_horizontal|top"
+                android:layout_weight="0.6"
+
+                style="@style/datePic_sousTitle.likeButton"></Spinner>
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

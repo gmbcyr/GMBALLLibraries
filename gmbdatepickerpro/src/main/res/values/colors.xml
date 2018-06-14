@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+
+    <color name="datepic_primary_light_100">#C8E6C9</color>
+    <color name="datepic_accent">#AEEA00</color>
+    <color name="datepic_accent_transparent">#10AEEA00</color>
+    <color name="datepic_transparent" >#00FFFFFF</color>
+
+    <color name="datepic_today">#4b82ff</color>
+    <color name="datepic_greyed_out">#c7c7c7</color>
+
+    <color name="datepic_summer">#44eebd82</color>
+    <color name="datepic_fall">#44d8d27e</color>
+    <color name="datepic_winter">#44a1c1da</color>
+    <color name="datepic_spring">#448da64b</color>
+
+    <color name="datepic_primary">#4CAF50</color>
+    <color name="datepic_primary_dark">#388E3C</color>
+
+
+    <color name="datepic_lightgray">#e7e7e7</color>
+    <color name="datepic_lightgray02">#bfbfbf</color>
+    <color name="datepic_dark">#000015</color>
+
+    <color name="datepic_primary_dark_total">#1B5E20</color>
+    <color name="datepic_primary_less">#4CAF50</color>
+    <color name="datepic_primary_old">#4CAF50</color>
+    <color name="datepic_primary_dark_old">#388E3C</color>
+    <color name="datepic_primary_dark_total_old">#1B5E20</color>
+    <color name="datepic_primary_less_old">#81C784</color>
+    <color name="datepic_primary_light_200">#A5D6A7</color>
+    <color name="datepic_primary_light_50">#E8F5E9</color>
+    <color name="datepic_accent_400">#C6FF00</color>
+    <color name="datepic_accent_200">#EEFF41</color>
+    <color name="datepic_accent_100">#F4FF81</color>
+    <color name="datepic_button_background">#F9FBE7</color>
+    <color name="datepic_button_background_transparent">#12F9FBE7</color>
+    <color name="datepic_button_forground">#CDDC39</color>
+    <color name="datepic_button_forground_transparent">#12CDDC39</color>
+    <color name="datepic_grey_600">#757575</color>
+    <color name="datepic_grey_800">#424242</color>
+    <color name="datepic_grey_900">#212121</color>
+    <color name="datepic_grey_500">#9E9E9E</color>
+    <color name="datepic_grey_400">#BDBDBD</color>
+    <color name="datepic_grey_200">#EEEEEE</color>
+    <color name="datepic_grey_200_transparent">#22EEEEEE</color>
+    <color name="datepic_red_600">#E53935</color>
+    <color name="datepic_red_800">#C62828</color>
+    <color name="datepic_red_900">#B71C1C</color>
+    <color name="datepic_red_500">#F44336</color>
+    <color name="datepic_red_400">#EF5350</color>
+    <color name="datepic_red_200">#EF9A9A</color>
+    <color name="datepic_red_200_transparent">#22EF9A9A</color>
+    <color name="datepic_blue_grey_600">#546E7A</color>
+    <color name="datepic_blue_grey_800">#424242</color>
+    <color name="datepic_blue_grey_900">#263238</color>
+    <color name="datepic_blue_grey_900_transparent">#99263238</color>
+    <color name="datepic_blue_grey_500">#607D8B</color>
+    <color name="datepic_blue_grey_400">#78909C</color>
+    <color name="datepic_blue_grey_200">#B0BEC5</color>
+    <color name="datepic_indigo_300">#7986CB</color>
+    <color name="datepic_indigo_500">#3F51B5</color>
+    <color name="datepic_indigo_300_transparent">#007986CB</color>
+    <color name="datepic_indigo_500_transparent">#113F51B5</color>
+    <color name="datepic_white">#ffffff</color>
+    <color name="datepic_white_transparent">#ffffff</color>
+    <color name="datepic_back_color1">#f0f0f0</color>
+    <color name="datepic_back_color2">#f4f4f4</color>
+    <color name="datepic_back_color3">#F2FBFF</color>
+    <color name="datepic_black">#000000</color>
+    <color name="datepic_effet_damier1">#B9F6CA</color>
+    <color name="datepic_effet_damier2">#6AB344</color>
+    <color name="datepic_effet_damier10">#B9F6CA</color>
+    <color name="datepic_effet_damier20">#E8F5E9</color>
+    <color name="datepic_effet_damier3">#C8E6C9</color>
+
+
+
+    <color name="datepic_accent_transparent_moins_2">#30AEEA00</color>
+
+    <color name="datepic_red_500_transparent">#30F44336</color>
+
+    <color name="opaque" >#FFFFFFFF</color>
+    <color name="green" >#4499CC00</color>
+    <color name="darkgreen" >#FF669900</color>
+
+    <color name="today">#4b82ff</color>
+    <color name="greyed_out">#c7c7c7</color>
+
+    <color name="summer">#44eebd82</color>
+    <color name="fall">#44d8d27e</color>
+    <color name="winter">#44a1c1da</color>
+    <color name="spring">#448da64b</color>
+
+
+
+
+    <color name="lightgray">#e7e7e7</color>
+    <color name="lightgray02">#bfbfbf</color>
+
+</resources>

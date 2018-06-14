@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="myActionBar" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Large</item>
+    </style>
+</resources>

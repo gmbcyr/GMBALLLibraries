@@ -1,0 +1,251 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+        android:gravity="center_horizontal|center_vertical">
+
+        <TextView
+            android:id="@+id/param_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/export_param"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="@android:color/black"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:textColor="@color/white"/>
+
+
+        <RelativeLayout
+            android:id="@+id/lyt_file_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+
+            android:layout_below="@+id/param_title"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal|center_vertical">
+
+            <EditText
+                android:id="@+id/txt_file_name"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:text="Exported"
+                android:textStyle="bold"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+
+                android:gravity="left|bottom"
+                android:paddingLeft="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:labelFor="@+id/txt_file_name"
+                android:text="@string/file_name"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/lyt_file_dir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+
+            android:layout_below="@+id/lyt_file_name"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal|center_vertical">
+
+            <TextView
+                android:id="@+id/txt_file_dir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/click_to_select_dir"
+
+                android:layout_below="@+id/txt_file_dir_label"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:gravity="left|bottom"
+                android:paddingLeft="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:id="@+id/txt_file_dir_label"
+                android:layout_alignParentTop="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:labelFor="@+id/txt_file_dir"
+                android:text="@string/file_dir"/>
+
+
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:id="@+id/lyt_export_field_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/lyt_export_field"
+            android:layout_below="@+id/lyt_file_dir"
+            android:text="@string/export_select_field_to_export"
+
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/lyt_export_field"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+
+
+            android:paddingLeft="0dp"
+
+
+            android:layout_below="@+id/lyt_export_field_label"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="@android:color/darker_gray">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.40"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@android:color/black"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.50"
+                    android:text="@string/field_to_export"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:background="@android:color/black"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:gravity="center_vertical|center_horizontal"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.50"
+                    android:text="@string/add_field_to_export"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:background="@android:color/black"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:gravity="center_vertical|center_horizontal"/>
+            </LinearLayout>
+
+
+            <HorizontalScrollView
+                android:id="@+id/scroll_field"
+                android:layout_width="0dp"
+                android:layout_weight="0.60"
+                android:layout_height="match_parent"
+
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/lyt_field_dispo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+
+
+            android:layout_below="@+id/lyt_export_field"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal|center_vertical">
+
+            <CheckBox
+                android:id="@+id/chk_open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/open_after_export"
+                android:visibility="gone"
+
+                android:layout_below="@+id/scroll_field"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/cat_cmdCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cat_cmdCancel"
+
+            android:layout_below="@+id/lyt_check"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_horizontal|center_vertical"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:id="@+id/cat_cmdSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cat_cmdSave"
+
+            android:layout_below="@+id/lyt_check"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal|center_vertical"
+
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/holo_green_light"
+            android:layout_margin="15dp"/>
+    </RelativeLayout>
+
+
+</FrameLayout>

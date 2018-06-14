@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="calc_blue_grey_600">#546E7A</color>
+    <color name="calc_blue_grey_800">#424242</color>
+    <color name="calc_blue_grey_900">#263238</color>
+    <color name="calc_blue_grey_900_transparent">#99263238</color>
+    <color name="calc_blue_grey_500">#607D8B</color>
+    <color name="calc_blue_grey_400">#78909C</color>
+    <color name="calc_blue_grey_200">#B0BEC5</color>
+    <color name="calc_blue_grey_200_transparent">#20B0BEC5</color>
+
+    <color name="calc_primary">#3F51B5</color>
+    <color name="calc_primary_dark">#303F9F</color>
+    <color name="calc_primary_dark_total">#1A237E</color>
+    <color name="calc_primary_less">#7986CB</color>
+    <color name="calc_primary_light_200">#9FA8DA</color>
+    <color name="calc_primary_light_100">#C5CAE9</color>
+    <color name="calc_primary_light_50">#E8EAF6</color>
+</resources>

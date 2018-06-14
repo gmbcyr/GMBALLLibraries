@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GMB CSV Exporter</string>
+    <string name="title_value_array_size">Title array and Value array must be the same size.</string>
+    <string name="empty_data_to_export">Empty data to export</string>
+    <string name="export_succes">Export successful!</string>
+    <string name="export_failed">Export failed !</string>
+    <string name="export_default_dir">GMBexportedFiles</string>
+
+    <string name="must_fill_out_field">Please fill out every required field before continue</string>
+    <string name="txt_default_file_name" translatable="false">txt_default_file_name</string>
+    <string name="txt_default_file_dir" translatable="false">txt_default_file_dir</string>
+    <string name="chk_default_pref_open_after_export" translatable="false">chk_default_pref_open_after_export</string>
+    <string name="default_pref_use_gen_export_param" translatable="false">default_pref_use_gen_export_param</string>
+    <string name="my_title_separator" translatable="false"><![CDATA[#$&#]]></string>
+    <string name="txt_default_fields_selected" translatable="false">txt_default_fields_selected</string>
+    <string name="file_name">File name</string>
+    <string name="title_frag_export_file">Edit file name</string>
+    <string name="field_to_export">Fields available</string>
+    <string name="add_field_to_export">Add to export</string>
+    <string name="file_dir">File directory</string>
+    <string name="open_after_export">Open after export</string>
+    <string name="cat_cmdCancel">Cancel</string>
+    <string name="cat_cmdSave">Save</string>
+    <string name="export_param">Export parameters</string>
+    <string name="export_select_field_to_export">Select field to export</string>
+    <string name="must_fill_select_dir">Please select a destination folder before continue.</string>
+    <string name="click_to_select_dir">Click here to select a folder.</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/lyt_cmd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/back_bottom_bar_button">
+
+        <ImageView
+            android:id="@+id/cmd_oK"
+            android:layout_width="@dimen/add_button_diameter"
+            android:layout_height="@dimen/add_button_diameter"
+            android:layout_gravity="right|center_vertical"
+            android:elevation="@dimen/elevation_low"
+
+            android:layout_alignParentRight="true"
+
+            android:src="@drawable/my_ok_col"
+            android:background="@drawable/back_button"
+            />
+
+        <ImageView
+            android:id="@+id/cmd_cancel"
+            android:layout_width="@dimen/add_button_diameter"
+            android:layout_height="@dimen/add_button_diameter"
+            android:layout_gravity="left|center_vertical"
+            android:elevation="@dimen/elevation_low"
+
+            android:layout_alignParentLeft="true"
+
+
+            android:src="@android:drawable/ic_delete"
+            android:background="@drawable/back_button_cancel"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

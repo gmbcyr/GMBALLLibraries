@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/datepic_red_500"
+                android:type="linear"
+                android:angle="0"
+                android:centerX="0.5"
+                android:centerY="0.5"/>
+            <stroke
+                android:width="1dp"
+                android:color="@color/datepic_red_500_transparent" />
+            <corners
+                android:radius="5dp" />
+        </shape>
+    </item>
+
+
+
+
+
+    <item>
+        <shape>
+            <gradient
+                android:endColor="@color/datepic_primary_less"
+                android:type="linear"
+                android:angle="0"
+                android:centerX="0.5"
+                android:centerY="0.5"/>
+            <stroke
+                android:width="1dp"
+                android:color="@color/datepic_accent_transparent_moins_2" />
+            <corners
+                android:radius="5dp" />
+        </shape>
+    </item>
+
+
+
+
+</layer-list>
